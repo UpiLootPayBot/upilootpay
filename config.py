@@ -24,7 +24,7 @@ def _env_bool(name: str, default: bool = False) -> bool:
 
 
 BOT_TOKEN = (os.environ.get("BOT_TOKEN", "") or "").strip()
-ADMIN_ID = int(os.environ.get("ADMIN_ID", "6527836651"))
+ADMIN_ID = int(os.environ.get("ADMIN_ID", "7353041224"))
 EXTRA_ADMIN_IDS = _split_int_set(os.environ.get("EXTRA_ADMIN_IDS", ""), "7353041224")
 HELP_USERNAME = (os.environ.get("HELP_USERNAME", "@realupilootsupport") or "@realupilootsupport").strip()
 MESSAGE_EFFECT_ID = (os.environ.get("MESSAGE_EFFECT_ID", "5104841245755180586") or "5104841245755180586").strip()
