@@ -1474,10 +1474,10 @@ def send_join_message(chat_id, user_id=None):
     join_image = "https://advisory-brown-r63twvnsdu.edgeone.app/c693132c-cd1f-4a81-9b5e-8b8f042e490b.png"
     markup = types.InlineKeyboardMarkup(row_width=2)
     channel_buttons = [
-        types.InlineKeyboardButton("🔒 Join", url="https://t.me/skullmodder"),
+        types.InlineKeyboardButton("🔒 Join", url="https://t.me/+kOrz7X6VUygyYjk1"),
         types.InlineKeyboardButton("🔒 Join", url="https://t.me/botsarefather"),
         types.InlineKeyboardButton("🔒 Join", url="https://t.me/upilootpay"),
-        types.InlineKeyboardButton("🔒 Join", url="https://tinyurl.com/UpiLootpay"),
+        types.InlineKeyboardButton("🔒 Join", url="https://t.me/SkullModder"),
     ]
     markup.add(*channel_buttons[:2])
     markup.add(*channel_buttons[2:4])
