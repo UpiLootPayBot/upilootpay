@@ -1477,7 +1477,7 @@ def send_join_message(chat_id, user_id=None):
         types.InlineKeyboardButton("🔒 Join", url="https://t.me/skullmodder"),
         types.InlineKeyboardButton("🔒 Join", url="https://t.me/botsarefather"),
         types.InlineKeyboardButton("🔒 Join", url="https://t.me/upilootpay"),
-        types.InlineKeyboardButton("🔒 Join", url="https://tinyurl.com/UpiLootpa"),
+        types.InlineKeyboardButton("🔒 Join", url="https://tinyurl.com/UpiLootpay"),
     ]
     markup.add(*channel_buttons[:2])
     markup.add(*channel_buttons[2:4])
